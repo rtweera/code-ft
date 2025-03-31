@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 repo_dir = os.path.normpath(os.path.join(script_dir, '..', 'data-bal-files')) # Adjust this path to your repo location
-output_dir = os.path.normpath(os.path.join(script_dir, '..', 'data'))   # Adjust this path to your output location
+output_dir = os.path.normpath(os.path.join(script_dir, '..', 'data', 'raw'))   # Adjust this path to your output location
 
 # Get the current date and time
 current_date_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -16,7 +16,7 @@ test_output_file = f'test_{current_date_time}.txt'
 enable_train_val_test_split = False  # Set to False if you don't want to split into train/val/test
 
 if i:=input(f"""
-Repo directory: {repo_dir}
+Source directory: {repo_dir}
 Output directory: {output_dir}
 train_val_test split: {enable_train_val_test_split}
 
