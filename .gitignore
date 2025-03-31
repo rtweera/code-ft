@@ -180,3 +180,4 @@ cython_debug/
 # large files
 *.gguf
 *.safetensors
+*.zip
