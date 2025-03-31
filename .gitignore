@@ -183,3 +183,5 @@ cython_debug/
 *.zip
 data/
 data-bal-files/
+
+llama.cpp/
