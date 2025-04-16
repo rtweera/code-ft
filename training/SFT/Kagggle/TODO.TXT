@@ -1,0 +1,4 @@
+1. Classifiction of FT
+2. FT algos (RL, DPO, PPO) - find the top 5 now
+3. FT adaptor things? (LoRA, QLoRA, ...) - what are these called?
+4. Get a story
